@@ -28,12 +28,12 @@ jobs:
           pip install -r starter/requirements.txt
 
       - name: Generate clean data
-        run: |
-          python starter/clean_data.py
+        run: python clean_data.py
+        working-directory: ./starter
 
       - name: Train model
-        run: |
-          python starter/starter/train_model.py
+        run: python starter/train_model.py
+        working-directory: ./starter
 
       - name: Lint with flake8
         run: |
