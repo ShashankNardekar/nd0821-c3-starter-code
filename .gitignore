@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment
+.env
+.venv
+venv/
+
+# Generated data and models
+starter/data/cleaned_census.csv
+starter/model/
+starter/slice_output.txt
