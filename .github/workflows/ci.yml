@@ -27,6 +27,14 @@ jobs:
           pip install flake8 pytest
           pip install -r starter/requirements.txt
 
+      - name: Generate clean data
+        run: |
+          python starter/clean_data.py
+
+      - name: Train model
+        run: |
+          python starter/starter/train_model.py
+
       - name: Lint with flake8
         run: |
           flake8 starter --count --select=E9,F63,F7,F82 --show-source --statistics
