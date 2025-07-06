@@ -1,0 +1,82 @@
+Model Performance on Slices of 'education' feature
+==================================================
+
+Slice for education = 'Some-college'
+  Precision: 0.6132
+  Recall: 0.2347
+  F1 Score: 0.3394
+
+Slice for education = 'HS-grad'
+  Precision: 0.6033
+  Recall: 0.2116
+  F1 Score: 0.3133
+
+Slice for education = 'Bachelors'
+  Precision: 0.8199
+  Recall: 0.2933
+  F1 Score: 0.4321
+
+Slice for education = 'Masters'
+  Precision: 0.8857
+  Recall: 0.2995
+  F1 Score: 0.4477
+
+Slice for education = 'Assoc-acdm'
+  Precision: 0.9286
+  Recall: 0.2766
+  F1 Score: 0.4262
+
+Slice for education = '7th-8th'
+  Precision: 0.2500
+  Recall: 0.1667
+  F1 Score: 0.2000
+
+Slice for education = '11th'
+  Precision: 0.7000
+  Recall: 0.6364
+  F1 Score: 0.6667
+
+Slice for education = 'Assoc-voc'
+  Precision: 0.5357
+  Recall: 0.2381
+  F1 Score: 0.3297
+
+Slice for education = 'Prof-school'
+  Precision: 0.9355
+  Recall: 0.3452
+  F1 Score: 0.5043
+
+Slice for education = '9th'
+  Precision: 0.5000
+  Recall: 0.3333
+  F1 Score: 0.4000
+
+Slice for education = '5th-6th'
+  Precision: 0.5000
+  Recall: 0.5000
+  F1 Score: 0.5000
+
+Slice for education = '10th'
+  Precision: 0.5714
+  Recall: 0.3333
+  F1 Score: 0.4211
+
+Slice for education = 'Doctorate'
+  Precision: 1.0000
+  Recall: 0.3333
+  F1 Score: 0.5000
+
+Slice for education = '12th'
+  Precision: 0.2500
+  Recall: 0.2000
+  F1 Score: 0.2222
+
+Slice for education = '1st-4th'
+  Precision: 0.0000
+  Recall: 1.0000
+  F1 Score: 0.0000
+
+Slice for education = 'Preschool'
+  Precision: 1.0000
+  Recall: 1.0000
+  F1 Score: 1.0000
